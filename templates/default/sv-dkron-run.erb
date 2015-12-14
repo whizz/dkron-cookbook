@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd <%= @options[:home] %>
+exec 2>&1
+exec /usr/bin/env dkron <%= @options[:options] %>
