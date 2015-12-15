@@ -17,10 +17,10 @@ default[:dkron][:config][:bind] = "0.0.0.0:8946"
 default[:dkron][:config][:http_addr] = ":8080"
 default[:dkron][:config][:backend] = "etcd"
 default[:dkron][:config][:backend_machine] = "127.0.0.1:2379"
-default[:dkron][:config][:tag] = {}
+default[:dkron][:config][:tags] = {}  # tags should be key/value pairs
 default[:dkron][:config][:server] = false
 default[:dkron][:config][:keyspace] = "dkron"
-default[:dkron][:config][:encrypt] = "kPpdjphiipNSsjd4QHWbkA=="
+default[:dkron][:config][:encrypt] = "kPpdjphiipNSsjd4QHWbkA=="  # you should change this in your environment
 default[:dkron][:config][:mail_host] = nil
 default[:dkron][:config][:mail_port] = nil
 default[:dkron][:config][:mail_username] = nil
