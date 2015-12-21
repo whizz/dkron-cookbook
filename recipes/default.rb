@@ -19,14 +19,9 @@ template "#{node[:dkron][:install_path]}/current/config/dkron.json" do
 end
 
 # create a service thru runit
-options = "agent"
-if node[:dkron][:config][:server]
-  options = "#{options} -server"
-end
 runit_service 'dkron' do
   options(
-    home: "#{node[:dkron][:install_path]}/current",
-    options: options
+    home: "#{node[:dkron][:install_path]}/current"
   )
   action :enable
 end
