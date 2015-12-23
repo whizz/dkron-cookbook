@@ -1,5 +1,8 @@
 # dkron cookbook changelog
 
+## v0.2.1 (2015-12-23)
+  * bump default version to 0.6.2
+
 ## v0.2.0 (2015-12-21)
   * add Berkshelf support and be more strict about dependencies
   * simplify server/agent configuration
