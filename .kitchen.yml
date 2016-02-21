@@ -12,7 +12,10 @@ platforms:
 suites:
   - name: default
     run_list:
-
       - recipe[dkron::default]
-
     attributes:
+  - name: server
+    run_list:
+      - recipe[dkron::default]
+    atributes: { dkron: { config: { server: true } } }
+    
