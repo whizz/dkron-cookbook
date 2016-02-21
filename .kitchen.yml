@@ -6,16 +6,15 @@ provisioner:
   name: chef_solo
 
 platforms:
-  - name: ubuntu-14.04
   - name: centos-7.1
+  - name: ubuntu-14.04
 
 suites:
-  - name: default
+  - name: agent
     run_list:
-      - recipe[dkron::default]
+      - recipe[dkron-test::agent]
     attributes:
   - name: server
     run_list:
-      - recipe[dkron::default]
-    atributes: { dkron: { config: { server: true } } }
+      - recipe[dkron-test::server]
     
