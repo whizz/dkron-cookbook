@@ -1,5 +1,9 @@
 # dkron cookbook changelog
 
+## v0.2.3 (2016-02-25)
+  * bump default version to 0.6.4
+  * improve tests
+
 ## v0.2.2 (2015-12-29)
   * bump default version to 0.6.3
 
