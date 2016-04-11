@@ -1,5 +1,10 @@
 # dkron cookbook changelog
 
+## v0.3.0 (2016-04-11)
+  * bump default version to 0.7.0
+  * added issues_url to metadata.rb
+  * bump ark dependency to 1.0
+
 ## v0.2.3 (2016-02-25)
   * bump default version to 0.6.4
   * improve tests
