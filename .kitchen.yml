@@ -6,7 +6,7 @@ provisioner:
   name: chef_solo
 
 platforms:
-  - name: centos-7.1
+  - name: centos-7.2
   - name: ubuntu-14.04
 
 suites:
@@ -17,4 +17,3 @@ suites:
   - name: server
     run_list:
       - recipe[dkron-test::server]
-    

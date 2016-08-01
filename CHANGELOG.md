@@ -1,5 +1,9 @@
 # dkron cookbook changelog
 
+## v0.3.1 (2016-08-01)
+  * bump default version to 0.7.3
+  * kitchen test on CentOS 7.2
+
 ## v0.3.0 (2016-04-11)
   * bump default version to 0.7.0
   * added issues_url to metadata.rb
@@ -19,9 +23,9 @@
   * add Berkshelf support and be more strict about dependencies
   * simplify server/agent configuration
   * bump default version to 0.6.1
- 
+
 ## v0.1.1 (2015-12-15)
   * fix tag configuration
-  
+
 ## v0.1.0
   * Initial release

@@ -9,14 +9,14 @@ used to setup a Dkron server or agent.
 
 ## Recipes
 
-Only a default recipe is provided. It installs dkron, sets up a service and 
+Only a default recipe is provided. It installs dkron, sets up a service and
 creates a config file. To control, whether the node will be a server or just
 an agent, use the `node['dkron']['config']['server']` attribute.
 
 The recipe does not handle the setup of the key value store for dkron. You
 can do that in your role or wrapper recipe. Supported backend stores are
 Etcd, Consul and Zookeeper. Default is Etcd.  
-  
+
 ## Attributes
 
 See `atributes/default.rb`.
@@ -34,7 +34,7 @@ bundle exec rake test:complete
 ```
 
 ### Tested platforms
-* CentOS 7.1
+* CentOS 7.2
 * Ubuntu 14.04
 
 ## License and Authors
@@ -47,4 +47,3 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 Authors:
 - Michal Taborsky <michal.taborsky@mall.cz>
-

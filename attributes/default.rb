@@ -1,7 +1,7 @@
 # version to install
-default['dkron']['version'] = '0.7.0'
-default['dkron']['download_url'] = 'https://github.com/victorcoder/dkron/releases/download/v0.7.0/dkron_0.7.0_linux_amd64.tar.gz'
-default['dkron']['checksum'] = '9ae3bf317bbd19e0e4dcc4480dfaa7df8fc1c795a5fe7a0043d5478546b75b96'
+default['dkron']['version'] = '0.7.3'
+default['dkron']['download_url'] = 'https://github.com/victorcoder/dkron/releases/download/v0.7.3/dkron_0.7.3_linux_amd64.tar.gz'
+default['dkron']['checksum'] = '159ad0994e5c7abbeadf07a961e9e63a248609658aa24345808cf62d1e2325bf'
 
 # where to put it, ark will create a directory for each version and
 # create a 'current' symlink to it in this home
@@ -14,6 +14,7 @@ default['dkron']['install_path'] = '/opt/dkron'
 # if this is supposed to be a real world cluster, not a standalone node
 default['dkron']['config']['node'] = node['fqdn']
 default['dkron']['config']['bind'] = '0.0.0.0:8946'
+default['dkron']['config']['advertise'] = node['dkron']['config']['bind']
 default['dkron']['config']['http_addr'] = ':8080'
 default['dkron']['config']['backend'] = 'etcd'
 default['dkron']['config']['backend_machine'] = '127.0.0.1:2379'
