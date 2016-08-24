@@ -1,5 +1,8 @@
 # dkron cookbook changelog
 
+## v0.3.2 (2016-08-24)
+  * bump default version to 0.9.0
+
 ## v0.3.1 (2016-08-01)
   * bump default version to 0.7.3
   * kitchen test on CentOS 7.2
