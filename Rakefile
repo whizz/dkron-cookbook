@@ -17,7 +17,7 @@ namespace :test do
     t.name = :foodcritic
     t.options = {
       tags: ['~FC016'],
-      fail_tags: ['any']
+      fail_tags: ['any'],
     }
   end
 

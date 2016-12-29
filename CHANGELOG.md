@@ -1,5 +1,9 @@
 # dkron cookbook changelog
 
+## v0.3.4 (2016-12-29)
+  * bump default version to 0.9.2
+  * relaxed dependency constraints to not step on any toes
+
 ## v0.3.3 (2016-09-29)
   * bump default version to 0.9.1
 

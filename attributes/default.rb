@@ -1,7 +1,7 @@
 # version to install
-default['dkron']['version'] = '0.9.1'
+default['dkron']['version'] = '0.9.2'
 default['dkron']['download_url'] = "https://github.com/victorcoder/dkron/releases/download/v#{node['dkron']['version']}/dkron_#{node['dkron']['version']}_linux_amd64.tar.gz"
-default['dkron']['checksum'] = '5e415fb763c1340e870be472ec1d60fd2a4d5b9280a4ec4ee92ae38fe8dea78e'
+default['dkron']['checksum'] = '25d910287ae0722e4a6bcee3c4d415901c28d2082d557b03860caaa59ef9697c'
 
 # where to put it, ark will create a directory for each version and
 # create a 'current' symlink to it in this home
