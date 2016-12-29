@@ -34,7 +34,7 @@ bundle exec rake test:complete
 ```
 
 ### Tested platforms
-* CentOS 7.2
+* CentOS 7.3
 * Ubuntu 14.04
 
 ## License and Authors
